@@ -1,0 +1,60 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+header, div, p, article{
+    border: 4px solid red;
+    border: 2px solid #D6001C;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style-position: inside;
+  padding-left: 0;
+
+  img{
+    height:50px;
+  }
+}
+
+div img{
+    height: 40px;
+    width: auto;
+    display: border;
+}
+
+header{
+    height:400px;
+    background-image: url("./img/snow_winter_trees.jpg");
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+p{
+    flex-direction: right;
+    grid: border;
+    grid left: 40px;
+    padding-left: 40%;
+    padding-block-end: text;
+}
+
+main{
+    
+
+}
+
+article{
+    flex-direction: column;
+    display: flex;
+}
